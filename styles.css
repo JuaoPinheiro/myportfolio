@@ -464,14 +464,27 @@ footer {
     #principal {
         background: url('./assets/bg.jpg') no-repeat;
         background-size: cover;
-        min-width: 500px;
+        height: 700px;
+        min-height: 500px;
+    }
+
+    body{
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .header-menu{
+        display: none;
+    }
+
+    .jp-logo{
+        text-align: center;
     }
 
     #about {
         display: flex;
         justify-content: center;
         flex-direction: column;
-        min-width: 750px;
     }
     .aboutMe {
         text-align: center;
@@ -506,10 +519,6 @@ footer {
         width: 350px;
         height: 200px;
         margin-bottom: 100px;
-    }
-
-    #services{
-        min-width: 750px;
     }
 
 
