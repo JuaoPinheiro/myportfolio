@@ -1,0 +1,517 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+#principal {
+    background: url('./assets/bg2.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    /* display: flex;
+    gap: 20px; */
+}
+
+header {
+    display: flex;
+    padding-top: 30px;
+    align-items: center;
+    gap: 15px;
+    justify-content: space-around;
+}
+
+.jp-logo {
+    margin-left: 20px;
+}
+
+.links {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 27px;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-left: 25px;
+}
+
+.links:hover {
+    opacity: .8;
+}
+
+.header-menu {
+    display: flex;
+
+
+}
+
+#typed_h1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 64px;
+    line-height: 96px;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+}
+
+.container {
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 210px;
+}
+
+#contacts {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    margin-top: 25px;
+    padding-bottom: 210px;
+}
+
+.contact:hover {
+    opacity: .7;
+}
+
+.contact:active {
+    opacity: .9;
+}
+
+#about {
+    background-color: #212121;
+    display: flex;
+    color: #FFFFFF;
+    justify-content: space-evenly;
+}
+
+.aboutMe {
+    color: #B0ADAD;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.abouth2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.1em;
+    color: #4C70EF;
+    margin-bottom: 20px;
+}
+
+.abouth1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    margin-bottom: 20px;
+}
+
+.text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.gif {
+    border-radius: 50px 0px;
+    margin-top: 50px;
+    width: 400px;
+    height: 400px;
+}
+
+#services {
+    text-align: center;
+    background-color: #212121;
+}
+
+.service {
+    background: #292C36;
+    border-radius: 12px;
+    width: 480px;
+    height: 206px;
+    margin-bottom: 150px;
+}
+
+.service:hover {
+    transform: scale(1.1);
+    transition: 0.7s ease all;
+    border: 5px solid #4C70EF;
+}
+
+.serviceP {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    display: flex;
+    align-items: center;
+    color: #FFFFFF;
+}
+
+.servicesh1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.1em;
+    color: #4C70EF;
+    padding-top: 125px;
+}
+
+.servicesh2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    color: #FFFFFF;
+    margin-top: 15px;
+}
+
+.services-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 60px;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    margin-top: 65px;
+    gap: 20px;
+    cursor: pointer;
+}
+
+.currency-converter {
+    width: 380px;
+    height: 280px;
+    border-radius: 12px 12px 0px 0px;
+    background: url(./assets/CC.png);
+    background-repeat: no-repeat;
+}
+
+.todoList {
+    width: 380px;
+    height: 280px;
+    border-radius: 12px 12px 0px 0px;
+    background: url(./assets/todo.png);
+    background-repeat: no-repeat;
+}
+
+.jokenpo {
+    width: 380px;
+    height: 280px;
+    border-radius: 12px 12px 0px 0px;
+    background: url(./assets/jokenn.png);
+    background-repeat: no-repeat;
+}
+
+.clock {
+    width: 380px;
+    height: 280px;
+    border-radius: 12px 12px 0px 0px;
+    background: url(./assets/clock.png);
+    background-repeat: no-repeat;
+}
+
+.xbox {
+    width: 380px;
+    height: 280px;
+    border-radius: 12px 12px 0px 0px;
+    background: url(./assets/xboo.png);
+    background-repeat: no-repeat;
+}
+
+.disney {
+    width: 380px;
+    height: 280px;
+    border-radius: 12px 12px 0px 0px;
+    background: url(./assets/disne.png);
+    background-repeat: no-repeat;
+}
+
+.burguer {
+    width: 380px;
+    height: 280px;
+    border-radius: 12px 12px 0px 0px;
+    background: url(./assets/hamb.png);
+    background-repeat: no-repeat;
+}
+
+.calcu {
+    width: 380px;
+    height: 280px;
+    border-radius: 12px 12px 0px 0px;
+    background: url(./assets/calc.png);
+    background-repeat: no-repeat;
+}
+
+.finan {
+    width: 380px;
+    height: 280px;
+    border-radius: 12px 12px 0px 0px;
+    background: url(./assets/fina.png);
+    background-repeat: no-repeat;
+}
+
+.portfolio {
+    background-color: #212121;
+    text-align: center;
+}
+
+.projectsh1 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 36px;
+    letter-spacing: 0.1em;
+    color: #4C70EF;
+    margin-bottom: 15px;
+}
+
+.project {
+    width: 100%;
+    max-width: 380px;
+    display: inline-block;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+
+.project:hover {
+    transform: scale(1.1);
+    transition: 0.7s ease all;
+    border: 2px solid #4C70EF;
+    border-radius: 16px;
+}
+
+.projectsh2 {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 54px;
+    letter-spacing: 0.1em;
+    color: #FFFFFF;
+    margin-bottom: 35px;
+}
+
+.h1allprojects {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.AllDivProjects {
+    background: #292C36;
+    border-radius: 0px 0px 12px 12px;
+    width: 380px;
+    height: 123px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 20px;
+    gap: 15px;
+    padding-left: 25px;
+}
+
+.viewLink {
+    background: #558FFF;
+    border-radius: 6px;
+    width: 128px;
+    height: 41px;
+    color: #FFFFFF;
+    border: none;
+    font-size: 14px;
+    padding-top: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.buttonView:hover {
+    opacity: .6;
+}
+
+.buttonView:active {
+    opacity: .8;
+}
+
+.liked {
+    background-color: #212121;
+}
+
+
+.h1Contact {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 48px;
+    color: #FFFFFF;
+    padding-bottom: 35px;
+}
+
+.skills {
+    background-color: #212121;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 120px;
+    padding-top: 120px;
+}
+
+.icons-skills {
+    width: 100%;
+    max-width: 980px;
+    height: 277px;
+    background: #292C36;
+    border-radius: 12px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+footer {
+    background-color: #292C36;
+    text-align: center;
+    width: 100%;
+    height: 156px;
+    color: #FFFFFF;
+    padding-top: 20px;
+}
+
+.pFooter {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
+
+.imgIcons {
+    cursor: pointer;
+}
+
+.imgIcons:hover {
+    transform: scale(1.2);
+    transition: 0.7s ease all;
+}
+
+
+/*Responsividade Tablet*/
+@media (max-width: 850px) {
+    .gif {
+        width: 300px;
+        height: 300px;
+        padding-bottom: 20px;
+    }
+
+    .aboutMe {
+        font-size: 12px;
+    }
+
+    .abouth2 {
+        font-size: 15px;
+        margin-bottom: 3px;
+    }
+
+    .abouth1 {
+        font-size: 25px;
+        margin-bottom: 2px;
+    }
+
+    .servicesh1 {
+        font-size: 20px;
+    }
+
+    .servicesh2 {
+        font-size: 30px;
+    }
+
+    .service {
+
+        width: 350px;
+        height: 200px;
+        margin-bottom: 100px;
+    }
+
+    .projectsh1 {
+        font-size: 20px;
+    }
+
+    .projectsh2 {
+        font-size: 30px;
+
+    }
+
+    .icons-skills {
+        width: 100%;
+        max-width: 700px;
+    }
+}
+
+@media (max-width: 750px){
+    #principal {
+        background: url('./assets/bg.jpg') no-repeat;
+        background-size: cover;
+        min-width: 750px;
+    }
+
+    #about {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        min-width: 750px;
+    }
+    .aboutMe {
+        text-align: center;
+        font-size: 18px;
+    }
+    
+    .abouth2 {
+       text-align: center;
+        font-size: 24px;
+    }
+    
+    .abouth1 {
+       text-align: center;
+        font-size: 36px;
+    }
+
+    .gif{
+        margin-left: 225px;
+        margin-bottom: 30px;
+    }
+
+    .servicesh1 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .servicesh2 {
+        font-size: 30px;
+    }
+
+    .service {
+        width: 350px;
+        height: 200px;
+        margin-bottom: 100px;
+    }
+
+    #services{
+        min-width: 750px;
+    }
+
+
+
+}
