@@ -5,15 +5,12 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Poppins', sans-serif;
-
 }
 
 #principal {
     background: url('./assets/bg.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    /* display: flex;
-    gap: 20px; */
 }
 
 header {
@@ -22,10 +19,6 @@ header {
     align-items: center;
     gap: 15px;
     justify-content: space-around;
-}
-
-.jp-logo {
-    margin-left: 20px;
 }
 
 .links {
@@ -45,8 +38,6 @@ header {
 
 .header-menu {
     display: flex;
-
-
 }
 
 #typed_h1 {
@@ -339,18 +330,6 @@ header {
     padding-top: 10px;
     cursor: pointer;
     text-decoration: none;
-}
-
-.buttonView:hover {
-    opacity: .6;
-}
-
-.buttonView:active {
-    opacity: .8;
-}
-
-.liked {
-    background-color: #212121;
 }
 
 
