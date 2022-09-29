@@ -9,7 +9,7 @@
 }
 
 #principal {
-    background: url('./assets/bg2.jpg');
+    background: url('./assets/bg.jpg');
     background-repeat: no-repeat;
     background-size: 100% 100%;
     /* display: flex;
@@ -33,6 +33,7 @@ header {
     font-weight: 600;
     font-size: 18px;
     line-height: 27px;
+    text-decoration: none;
     color: #FFFFFF;
     cursor: pointer;
     margin-left: 25px;
@@ -412,13 +413,20 @@ footer {
 }
 
 
-@media (max-width: 1000px) {
+@media (max-width: 1050px) {
     .aboutMe {
         font-size: 13px;
         width: 400px;
         overflow-wrap: break-word;
         word-wrap: break-word;
         word-break: break-word;
+    }
+
+    .service {
+
+        width: 350px;
+        height: 200px;
+        margin-bottom: 100px;
     }
 }
 
@@ -481,7 +489,6 @@ footer {
 
 @media (max-width: 750px) {
     #principal {
-        background: url('./assets/bg.jpg') no-repeat;
         background-size: cover;
         padding-bottom: 100px;
     }
@@ -546,9 +553,13 @@ footer {
     }
 
     .service {
-        width: 350px;
+        width: 300px;
         height: 200px;
         margin-bottom: 100px;
+    }
+
+    .serviceP{
+        font-size: 15px;
     }
 
 
@@ -605,6 +616,13 @@ footer {
         align-items: center;
         flex-direction: column;
         height: 700px;
+    }
+
+    .service {
+
+        width: 350px;
+        height: 200px;
+        margin-bottom: 100px;
     }
 }
 
