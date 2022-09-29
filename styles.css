@@ -464,7 +464,7 @@ footer {
     #principal {
         background: url('./assets/bg.jpg') no-repeat;
         background-size: cover;
-        min-width: 750px;
+        min-width: 500px;
     }
 
     #about {
