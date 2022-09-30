@@ -305,7 +305,7 @@ header {
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
-    line-height: 30px;
+    line-height: px;
     color: #FFFFFF;
 }
 
@@ -313,13 +313,19 @@ header {
     background: #292C36;
     border-radius: 0px 0px 12px 12px;
     width: 380px;
-    height: 123px;
+    height: 170px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
     padding-top: 20px;
-    gap: 15px;
+    gap: 30px;
     padding-left: 25px;
+}
+
+.paragraphAllDiv{
+    font-size: 13px;
+    color: #B0ADAD;
+    margin-top: -24px;
 }
 
 .viewLink {
@@ -652,7 +658,7 @@ footer {
 
     .AllDivProjects {
         width: 300px;
-        height: 123px;
+        height: 170px;
     }
 
     .aboutMe{
