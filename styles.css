@@ -246,6 +246,22 @@ header {
     background-repeat: no-repeat;
 }
 
+.memoryGame {
+    width: 380px;
+    height: 280px;
+    border-radius: 12px 12px 0px 0px;
+    background: url(./assets/MG.png);
+    background-repeat: no-repeat;
+}
+
+.quizHP {
+    width: 380px;
+    height: 280px;
+    border-radius: 12px 12px 0px 0px;
+    background: url(./assets/QHP.png);
+    background-repeat: no-repeat;
+}
+
 .burguer {
     width: 380px;
     height: 280px;
