@@ -190,6 +190,14 @@ header {
     cursor: pointer;
 }
 
+.form-card{
+     width: 380px;
+    height: 280px;
+    border-radius: 12px 12px 0px 0px;
+    background: url(./assets/form.jpg);
+    background-repeat: no-repeat;
+}
+
 .currency-converter {
     width: 380px;
     height: 280px;
