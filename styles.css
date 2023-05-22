@@ -190,6 +190,14 @@ header {
     cursor: pointer;
 }
 
+.chat{
+     width: 380px;
+    height: 280px;
+    border-radius: 12px 12px 0px 0px;
+    background: url(./assets/fotoChat.png);
+    background-repeat: no-repeat;
+}
+
 .form-card{
      width: 380px;
     height: 280px;
